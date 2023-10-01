@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px solid black;
+    width: 100%;
+    /* padding: 10px; */
+    /* display: flex; */
+    height: 100vh;
+    background-color: white;
+    justify-content: center;
+    /* gap: 200px; */
+}
+
+.box-1 {
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.anakbox1{
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    background-color:white;
+
+}
+
+.anakbox2 {
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+
+}
+
+.anakbox3 {
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+
+.box-2 { 
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-top: 10px;
+
+
+}
+
+.boxkiri {
+    border: 2px solid black;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.anakbox4 {
+    border: 2px solid black;
+    width: 700px;
+    height: 250px;
+}
+
+.anakbox5  {
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+.boxkanan {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bagian-atas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.sosial-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.anakbox6 {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.anakbox6 {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.anakbox6 {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.anakbox6 {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.profile {
+    border: 2px solid black;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.bagian-bawah {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.anakbox7,.anakbox8 {
+ width: 80%;
+ height: 30px;
+ border: 1px solid black;
+}
+
+.box-3 { 
+    border: 8px solid black;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.anakkotak1 {
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.anakkotak2 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+.anakkotak3 {
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.anakkotak4 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+}
