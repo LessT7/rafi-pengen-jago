@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav div .title {
+    font-size: 100rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    filter: drop-shadow(15px 15px 4px #ababb0);     
+}
+
+nav .navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: pink;
+}
+
+nav .button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .button .search,
+nav .button .shop {
+    font-size: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav .button .shop {
+    background-color: pink;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+nav .button .search {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* padding: 10px; */
+}
+
+header .hero .title h1 {
+    font-size: 5rem;
+    padding: 25px;
+}
+
+header .hero .button-shop button {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 2rem;
+    width: 200px;
+    border: 2px solid pink;
+    filter: drop-shadow(15px 15px 4px #2a2a2c);
+}
+
+header .profile .profile-img {
+    border-radius: 50%;
+}
+
+header .profile .profile-img img {
+    width: 400px;
+    height: 450px;
+    filter: drop-shadow(15px 15px 4px #2a2a2c);
+}
+
+main .title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+main .card-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .card-list .card {
+    /* border: 3px solid black; */
+    padding: 30px;
+    position: relative;
+    width: 300px;
+    border-radius: 5rem;
+    background-color: pink;
+    filter: drop-shadow(15px 15px 4px #242324);
+}
+
+main .card-list .card .img-product img {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    /* filter: drop-shadow(15px 15px 4px #2a2a2c); */
+}
+
+main .card-list .card:nth-child(3) .img-product img {
+    width: 150px;
+    top: -20px;
+}

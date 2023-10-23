@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* gap: 10px; */
+}
+
+.box-1 {
+    border-bottom: 2px solid black;
+}
+
+.Search {
+    font-size: 1rem;
+    background-color:transparent;
+    border: none;
+}
+
+.box-1 input {
+    border: none;
+}
+
+.love {
+    font-size: 1.5rem;
+    background-color:transparent;
+    border: 2px solid white;
+}
+.bell {
+    font-size: 1.5rem;
+    background-color:transparent;
+    border: 2px solid white;
+}
+.ellipsis {
+    font-size: 1.5rem;
+    background-color:transparent;
+    border: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 130px;
+
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+header {
+    padding: 25px;
+    display: flex;
+    /* border: 2px solid black; */
+
+}
+
+header .profile {
+    width: 150px;
+    height: 150px;
+}
+
+header .title {
+    position: absolute;
+    left: 700px;
+}
+
+header .button-shop {
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 700px;
+    bottom: 500px;
+}
+
+header .button-shop button {
+    background-color: white;
+    width: 150px;
+    border-radius: 1rem;
+    height: 30px;
+}
+
+header .barang-1 {
+    position: absolute;
+    right: 10px;
+}
+
+header .barang-2 {
+    position: absolute;
+    right: 425px;
+}
+
+.deskripsi-1 {
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+}
+
+.deskripsi-2 {
+    position: absolute;
+    bottom: 150px;
+}
