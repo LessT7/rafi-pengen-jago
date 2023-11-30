@@ -1,0 +1,1336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 300em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container section#one {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.container section#one .nav-1 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container section#one .nav-1 img {
+  width: 100px;
+  height: 80px;
+}
+.container section#one .nav-2 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+.container section#one .nav-2 select {
+  border: none;
+}
+.container section#one .nav-2 button {
+  background-color: transparent;
+  border: none;
+}
+.container section#one .nav-3 {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container section#one .nav-3 button {
+  background-color: transparent;
+  border: none;
+}
+.container section#one .nav-4 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container section#one .nav-4 button {
+  background-color: rgb(68, 151, 178);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-top-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+}
+.container section#two {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  flex-direction: row;
+}
+.container section#two .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.container section#two .left .top {
+  width: 60%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.container section#two .left .top h1 {
+  font-size: 2rem;
+}
+.container section#two .left .mid {
+  width: 60%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.container section#two .left .bottom {
+  width: 60%;
+  height: 25%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.container section#two .left .bottom button {
+  width: 120px;
+  height: 30px;
+  border-top-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  background-color: rgb(127, 200, 255);
+  color: white;
+}
+.container section#two .left .bottom button:hover {
+  background-color: white;
+  color: blue;
+}
+.container section#two .right {
+  width: 50%;
+  height: 100%;
+}
+.container section#two .right img {
+  width: 100%;
+  height: 100%;
+}
+.container section#three {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container section#four {
+  width: 100%;
+  height: 16%;
+}
+.container section#four .up {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+}
+.container section#four .up .kotak-1 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .up .kotak-1 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .up .kotak-1 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .up .kotak-1 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .up .kotak-1 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .up .kotak-1 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .up .kotak-1 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .up .kotak-1 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .up .kotak-1 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .up .kotak-1 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .up .kotak-1 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .up .kotak-1 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .up .kotak-2 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .up .kotak-2 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .up .kotak-2 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .up .kotak-2 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .up .kotak-2 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .up .kotak-2 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .up .kotak-2 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .up .kotak-2 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .up .kotak-2 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .up .kotak-2 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .up .kotak-2 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .up .kotak-2 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .up .kotak-3 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .up .kotak-3 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .up .kotak-3 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .up .kotak-3 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .up .kotak-3 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .up .kotak-3 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .up .kotak-3 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .up .kotak-3 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .up .kotak-3 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .up .kotak-3 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .up .kotak-3 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .up .kotak-3 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .up .kotak-4 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .up .kotak-4 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .up .kotak-4 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .up .kotak-4 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .up .kotak-4 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .up .kotak-4 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .up .kotak-4 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .up .kotak-4 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .up .kotak-4 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .up .kotak-4 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .up .kotak-4 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .up .kotak-4 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .down {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+}
+.container section#four .down .kotak-5 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .down .kotak-5 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .down .kotak-5 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .down .kotak-5 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .down .kotak-5 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .down .kotak-5 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .down .kotak-5 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .down .kotak-5 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .down .kotak-5 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .down .kotak-5 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .down .kotak-5 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .down .kotak-5 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .down .kotak-6 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .down .kotak-6 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .down .kotak-6 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .down .kotak-6 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .down .kotak-6 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .down .kotak-6 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .down .kotak-6 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .down .kotak-6 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .down .kotak-6 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .down .kotak-6 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .down .kotak-6 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .down .kotak-6 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .down .kotak-7 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .down .kotak-7 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .down .kotak-7 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .down .kotak-7 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .down .kotak-7 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .down .kotak-7 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .down .kotak-7 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .down .kotak-7 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .down .kotak-7 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .down .kotak-7 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .down .kotak-7 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .down .kotak-7 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#four .down .kotak-8 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#four .down .kotak-8 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#four .down .kotak-8 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#four .down .kotak-8 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#four .down .kotak-8 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#four .down .kotak-8 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#four .down .kotak-8 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#four .down .kotak-8 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#four .down .kotak-8 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#four .down .kotak-8 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#four .down .kotak-8 .bawah h2 {
+  color: lightblue;
+}
+.container section#four .down .kotak-8 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#five {
+  width: 100%;
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#five button {
+  width: 200px;
+  height: 100%;
+  background-color: transparent;
+  color: cornflowerblue;
+  border-radius: 1vh;
+}
+.container section#six {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container section#six h1 {
+  font-size: 3rem;
+}
+.container section#seven {
+  width: 100%;
+  height: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.container section#seven .gambar-1 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container section#seven .gambar-1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.container section#seven .gambar-2 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container section#seven .gambar-2 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.container section#seven .gambar-3 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container section#seven .gambar-3 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.container section#seven .gambar-4 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container section#seven .gambar-4 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.container section#seven .gambar-5 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container section#seven .gambar-5 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.container section#seven .gambar-6 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container section#seven .gambar-7 {
+  border: 2px solid black;
+  width: 160px;
+  height: 60px;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container section#eight {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container section#eight h1 {
+  font-size: 3rem;
+}
+.container section#nine {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.container section#nine .kotak-9 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#nine .kotak-9 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#nine .kotak-9 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#nine .kotak-9 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#nine .kotak-9 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#nine .kotak-9 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#nine .kotak-9 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#nine .kotak-9 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#nine .kotak-9 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#nine .kotak-9 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#nine .kotak-9 .bawah h2 {
+  color: lightblue;
+}
+.container section#nine .kotak-9 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#nine .kotak-10 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#nine .kotak-10 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#nine .kotak-10 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#nine .kotak-10 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#nine .kotak-10 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#nine .kotak-10 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#nine .kotak-10 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#nine .kotak-10 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#nine .kotak-10 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#nine .kotak-10 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#nine .kotak-10 .bawah h2 {
+  color: lightblue;
+}
+.container section#nine .kotak-10 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#nine .kotak-11 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#nine .kotak-11 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#nine .kotak-11 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#nine .kotak-11 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#nine .kotak-11 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#nine .kotak-11 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#nine .kotak-11 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#nine .kotak-11 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#nine .kotak-11 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#nine .kotak-11 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#nine .kotak-11 .bawah h2 {
+  color: lightblue;
+}
+.container section#nine .kotak-11 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#nine .kotak-12 {
+  border: 2px solid black;
+  width: 15%;
+  height: 95%;
+  border-radius: 2vh;
+}
+.container section#nine .kotak-12 .atas {
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+.container section#nine .kotak-12 .atas img {
+  width: 100%;
+  height: 100%;
+}
+.container section#nine .kotak-12 .atas i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.container section#nine .kotak-12 .tengah-1 {
+  width: 100%;
+  height: 25%;
+}
+.container section#nine .kotak-12 .tengah-1 .judul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#nine .kotak-12 .tengah-1 .judul h2 {
+  font-size: 20px;
+}
+.container section#nine .kotak-12 .tengah-1 .deskripsi {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.container section#nine .kotak-12 .tengah-2 {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+}
+.container section#nine .kotak-12 .bawah {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container section#nine .kotak-12 .bawah h2 {
+  color: lightblue;
+}
+.container section#nine .kotak-12 .bawah button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.container section#ten {
+  width: 100%;
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#ten button {
+  width: 200px;
+  height: 100%;
+  background-color: transparent;
+  color: cornflowerblue;
+  border-radius: 1vh;
+}
+.container section#eleven {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container section#eleven h1 {
+  font-size: 3rem;
+}
+.container section#twelve {
+  width: 100%;
+  height: 12%;
+  background-image: url(../../public/assets/image/gambar-19.png);
+  display: flex;
+  flex-direction: row;
+}
+.container section#twelve .kiri {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#twelve .kiri img {
+  width: 90%;
+  height: 90%;
+}
+.container section#twelve .tengah {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#twelve .tengah .main {
+  border: 2px solid black;
+  width: 70%;
+  height: 60%;
+  background-color: white;
+  border-radius: 3vh;
+}
+.container section#twelve .tengah .main .atas {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+.container section#twelve .tengah .main .atas .left {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.container section#twelve .tengah .main .atas .left img {
+  width: 50px;
+}
+.container section#twelve .tengah .main .atas .right {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container section#twelve .tengah .main .bawah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container section#twelve .kanan {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.container section#twelve .kanan button {
+  width: 40px;
+  height: 40px;
+}
+.container section#twelve .kanan button:hover {
+  background-color: rgb(114, 151, 239);
+}
+.container section#thirteen {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container section#thirteen h1 {
+  font-size: 3rem;
+}
+.container section#fourteen {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#fourteen .main {
+  border: 2px solid black;
+  width: 90%;
+  height: 70%;
+  border-radius: 5vh;
+  background-image: url(../../public/assets/image/gambar-19.png);
+}
+.container section#fourteen .main .atas {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container section#fourteen .main .atas h1 {
+  font-size: 3rem;
+}
+.container section#fourteen .main .bawah {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#fourteen .main .bawah .cure {
+  border: 2px solid black;
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 3vh;
+  background-color: white;
+}
+.container section#fourteen .main .bawah .cure input {
+  font-size: 20px;
+  border: none;
+}
+.container section#fourteen .main .bawah .cure button {
+  width: 120px;
+  height: 30px;
+  border-radius: 3vh;
+  background-color: rgb(255, 196, 0);
+  border: none;
+}
+.container section#fifthteen {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.container section#fifthteen .atas {
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.container section#fifthteen .atas .kiri {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.container section#fifthteen .atas .kiri img {
+  width: 150px;
+}
+.container section#fifthteen .atas .kanan {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container section#fifthteen .atas .kanan .upper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container section#fifthteen .atas .kanan .upper .left {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.container section#fifthteen .atas .kanan .upper .mid {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.container section#fifthteen .atas .kanan .upper .right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.container section#fifthteen .atas .kanan .upper .right P {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 25px;
+}
+.container section#fifthteen .atas .kanan .lower {
+  width: 100%;
+  height: 50%;
+}
+.container section#fifthteen .atas .kanan .lower img {
+  width: 100%;
+  height: 100%;
+}
+.container section#fifthteen .bawah {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container section#fifthteen .bawah .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.container section#fifthteen .bawah .right {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */

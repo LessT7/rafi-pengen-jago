@@ -1,0 +1,2180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primary-gray: #edeef9;
+
+
+body {
+
+    display: flex;
+    flex-direction: row;
+}
+section#side {
+    background-color: $primary-gray;    
+    display: flex;
+    flex-direction: row;
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        // border: 2px solid black;
+        width: 90px;
+        height: 786px;
+        gap: 15px;
+
+        .flag-1 {
+            // border: 2px solid black;
+            width: 90px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                display: flex;
+                color: rgb(255, 170, 0);
+            }
+        }
+
+        .flag-2 {
+            // border: 2px solid black;
+            width: 90px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 15px;
+
+            button {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                // width: 60px;
+                // height: 60px;
+                background-color: transparent;
+                color: rgb(105, 104, 104);
+                border: none;
+                cursor: pointer;
+                // border-radius: 50%;  
+
+                i{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+                
+                &:hover{
+                    color: white;
+                    
+                    i {
+                        background-color:  rgb(0, 98, 255);     
+                    }
+                }
+            }
+            
+        }
+
+        .flag-3 {
+            // border: 2px solid black;
+            width: 90px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+
+            button {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: transparent;
+                color: rgb(105, 104, 104);
+                border: none;
+                cursor: pointer;
+
+                i{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+
+                &:hover {
+                    color: white;
+
+                    i {
+                        background-color:  rgb(0, 98, 255);
+                    }
+                }
+            }
+        }
+    }
+}
+
+header#mess {
+    .navbar {
+        // border: 2px solid black;
+        width: 1446px;
+        background-color: $primary-gray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        .search {
+            // border: 2px solid black;
+            width: 1200px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            border-left: 2px solid black;
+
+            button {
+                font-size: 1.5rem;
+                margin-left: 30px;
+                background-color: transparent;
+                border: none;
+                color: rgb(105, 104, 104);
+                cursor: pointer;
+
+                &:hover {
+                    color: white;
+                }
+                
+            }
+        }
+
+        .order {
+            // border: 2px solid black;
+            width: 85px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+
+            button {
+                background-color: rgb(0, 98, 255);
+                color: white;
+                width: 80px;
+                height: 30px;
+                border-radius: 1vh;
+                outline: none;
+                border: none;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: white;
+                    color: rgb(0, 98, 255) ;
+
+                }
+            }
+        }
+
+        .profile {
+            // border: 2px solid black;
+            width: 150px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                font-size: 15px;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+
+
+                &:hover {
+                    color: red;
+                }
+            }
+
+            .foto img {
+                width: 35px;
+                height: 40px;
+
+            }
+        }
+    }
+    
+    .main {
+        // border: 2px solid black;
+        width: 1446px;
+        height: 721px;
+        background-color: $primary-gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .mainbox {
+            // border: 2px solid black;
+            width: 1426px;
+            height: 700px;
+            border-radius: 3vh;
+            background-color: white;
+
+            .upperbox {
+                // border: 2px solid black;
+                width: 1426px;
+                height: 350px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                .leftbox {
+                    padding: 20px;
+                    position: relative;
+                    // border: 2px solid black;
+                    width: 900px;
+                    height: 300px;
+                    border-radius: 3vh;
+                    background-color: rgb(255, 238, 0);
+
+                    .new {
+                        border: 2px solid orange;
+                        color: white;
+                        background-color: orange;
+                        width: 60px;
+                        height: 30px;
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-bottom-left-radius: 3vh;
+                        // border-top-right-radius: 3vh;
+                        bottom: 0px;
+                        left: 0px;
+                    }
+
+                    .hot {
+                        border: 2px solid blue;
+                        color: white;
+                        background-color: blue;
+                        width: 60px;
+                        height: 30px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // border-bottom-left-radius: 3vh;
+                        border-top-right-radius: 3vh;
+                        bottom: 0px;
+                        left: 60px;
+                    }
+
+                    img {
+                        position: absolute;
+                        transform: rotate(-25deg);
+                        right: 80px;
+                        top: -50px;
+                    }
+
+                    .sepuluh {
+                        position: absolute;
+                        font-size: 1.5rem;
+                        right: 10px;
+                        bottom: 10px;
+                        transform: rotate(-25deg);
+                    }
+
+                    .box1 {
+                        // border: 2px solid black;
+                        width: 250px;
+                        height: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        // align-items: center;
+                        margin-top: 40px;
+                        background-color: white;
+                        border-radius: 3vh;
+
+                        .up {
+                            padding: 10px;
+                            // border: 2px solid black;
+                            width: 250px;
+                            height: 33px;
+                        }
+
+                        .mid {
+                            // border: 2px solid black;
+                            padding: 10px;
+                            width: 250px;
+                            height: 33px;
+                            display: flex;
+                            flex-direction: row;
+
+                            .real {
+                                // padding: 5px;
+                                // border: 2px solid black;
+                                width: 70px;
+                                height: 33px;
+                                color: red;
+                            }
+
+                            .disc  {
+                                // border: 2px solid black;
+                                // padding: 5px;
+                                width: 125px;
+                                height: 33px;
+                                text-decoration: line-through;
+                            }
+                        }
+
+                        .bot {
+                            // border: 2px solid black;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            width: 250px;
+                            height: 33px;
+
+                            .dark {
+                                // border: 2px solid black;
+                                color: blue;
+                                background-color: lightblue;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 5vh;
+                                width: 80px;
+                                height: 28px;
+                            }
+
+                            .light {
+                                // border: 2px solid black;
+                                width: 125px;
+                                height: 33px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 5px;
+
+                                .color-1 {
+                                    border: 2px solid black;
+                                    background-color: black;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 50%;
+                                }
+                                .color-2 {
+                                    border: 2px solid orange;
+                                    background-color: orange;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 50%;
+                                }
+                                .color-3 {
+                                    border: 2px solid red;
+                                    background-color: red;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 50%;
+                                }
+                                .color-4 {
+                                    border: 2px solid yellow;
+                                    background-color: yellow;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 50%;
+                                }
+                                .color-5 {
+                                    border: 2px solid green;
+                                    background-color: green;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+
+                .rightbox {
+                    // border: 2px solid black;
+                    background-color: lightgreen;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 5px;
+                    width: 400px;
+                    height: 330px;
+                    border-radius: 2vh;
+
+
+                    .kiri {
+                        // border: 2px solid black;
+                        width: 30px;
+                        height: 325px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .top {
+                            // border: 2px solid black;
+                            width: 30px;
+                            height: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+                            .purple {
+                                border: 2px solid purple;
+                                background-color: purple;
+                                width: 20px;
+                                height: 40px;
+                                border-radius: 1vh;
+                            }
+                        }
+
+                        .low {
+                            // border: 2px solid black;
+                            width: 30px;
+                            height: 275px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 15px;
+
+                            .angka-1 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .angka-2 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .angka-3 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .angka-4 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .angka-5 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .angka-6 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            .angka-7 {
+                                // border: 2px solid black;
+                                width: 20px;
+                                height: 20px;
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    .kanan {
+                        // border: 2px solid black;
+                        width: 325px;
+                        height: 325px;
+
+                        .sfc {
+                            // border: 2px solid black;
+                            display: flex;
+                            flex-direction: row ;
+                            justify-content: space-around;
+                            align-items: center;
+                            width: 325px;
+                            height: 45px;
+
+                            .left {
+                                // border: 2px solid black;
+                                width: 160px;
+                                height: 35px;
+                                display: flex;
+                                align-items: center;
+                            }
+                            .right {
+                                // border: 2px solid black;
+                                display: flex;
+                                align-items: center;
+                                width: 160px;
+                                height: 35px;
+
+                                form select {
+                                    width: 125px;
+                                    height: 30px;
+                                    border-radius: 1vh;
+                                    background-color: transparent;
+                                    border-color: white;
+                                }
+                            }
+                        }
+
+                        .sfx {
+                            // border: 2px solid black;
+                            width: 325px;
+                            height: 280px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+
+
+                            .tower-1 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-1 {
+                                    border: 2px solid black;
+                                    background-color: black;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-1 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-2 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-2 {
+                                    border: 2px solid orange;
+                                    background-color: orange;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-2 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-3 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-3 {
+                                    border: 2px solid blue;
+                                    background-color: blue;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-3 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-4 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-4 {
+                                    border: 2px solid red;
+                                    background-color: red;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-4 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-5 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-5 {
+                                    border: 2px solid purple;
+                                    background-color: purple;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-5 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-6 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-6 {
+                                    border: 2px solid pink;
+                                    background-color: pink;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-6 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-7 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-7 {
+                                    border: 2px solid yellow;
+                                    background-color: yellow;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-7 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .tower-8 {
+                                // border: 2px solid black;
+                                width: 30px;
+                                height: 280px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: flex-end;
+
+                                .colorbar-8 {
+                                    border: 2px solid white;
+                                    background-color: white;
+                                    width: 20px;
+                                    height: 100px;
+                                }
+                                .number-8 {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .lowerbox {
+                // border: 2px solid black;
+                width: 1426px;
+                height: 350px;
+                display: flex;
+                flex-direction: row;
+
+                .mainleft {
+                    // border: 2px solid black;
+                    width: 1100px;
+                    height: 350px;
+
+                    .upperbracket {
+                        // border: 2px solid black;
+                        width: 1100px;
+                        height: 50px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+
+                        .kiri {
+                            // border: 2px solid black;
+                            padding: 50px;
+                            width: 550px;
+                            height: 50px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 10px;
+
+                            .box {
+                                border: 2px solid lightgreen;
+                                background-color: lightgreen;
+                                border-radius: 1vh;
+                                width: 15px;
+                                height: 40px;
+                            }
+
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+
+                        .kanan {
+                            // border: 2px solid black;
+                            width: 550px;
+                            height: 50px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            align-items: center;
+                            padding: 10px;
+                            gap: 10px;
+
+                            form select {
+                                width: 100px;
+                                height: 25px;
+                                border-radius: 1vh;
+
+                            }
+
+                            button {
+                                background-color: rgb(0, 98, 255);
+                                color: white;
+                                width: 80px;
+                                height: 30px;
+                                border-radius: 1vh;
+                                outline: none;
+                                border: none;
+                                cursor: pointer;
+                
+                                &:hover {
+                                    background-color: white;
+                                    color: rgb(0, 98, 255) ;
+                
+                                }
+                            }
+                        }
+                    }
+
+                    .lowerbracket {
+                        overflow-x: scroll;
+                        overflow-y: hidden;
+                        // border: 2px solid black;
+                        width: 1100px;
+                        height: 300px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        padding: 10px;
+                        gap: 15px;
+
+                        .purchase-1 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box1 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: lightgreen;
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 185px;
+                                    height: 150px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+                            }
+
+                        }
+                        .purchase-2 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box2 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: rgb(173, 180, 230);
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 185px;
+                                    height: 150px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+
+                                .hot {
+                                    border: 2px solid blue;
+                                    color: white;
+                                    background-color: blue;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    top: 0px;
+                                    border-top-left-radius: 1vh;
+                                    border-bottom-right-radius: 1vh;
+                                }
+                            }
+
+                        }
+                        .purchase-3 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box3 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: rgb(113, 75, 202);
+
+                                .new {
+                                    border: 2px solid orange;
+                                    color: white;
+                                    background-color: orange;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    // border-bottom-left-radius: 3vh;
+                                    border-top-left-radius: 1vh;
+                                    top: 0px;
+                                    left: 0px;
+                                }
+            
+                                .hot {
+                                    border: 2px solid blue;
+                                    color: white;
+                                    background-color: blue;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-bottom-right-radius: 1vh;
+                                    // border-top-right-radius: 3vh;
+                                    top: 0px;
+                                    left: 60px;
+                                }
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 190px;
+                                    height: 140px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+                            }
+
+                        }
+                        .purchase-4 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box4 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: cyan;
+
+                                .new {
+                                    border: 2px solid orange;
+                                    color: white;
+                                    background-color: orange;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    // border-bottom-left-radius: 3vh;
+                                    border-top-left-radius: 1vh;
+                                    top: 0px;
+                                    left: 0px;
+                                }
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 185px;
+                                    height: 150px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+                            }
+
+                        }
+                        .purchase-5 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box5 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: lightgreen;
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 185px;
+                                    height: 150px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+                            }
+
+                        }
+
+                        .purchase-6 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box6 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: rgb(173, 180, 230);
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 185px;
+                                    height: 150px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+
+                                .hot {
+                                    border: 2px solid blue;
+                                    color: white;
+                                    background-color: blue;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    top: 0px;
+                                    border-top-left-radius: 1vh;
+                                    border-bottom-right-radius: 1vh;
+                                }
+                            }
+
+                        }
+                        .purchase-7 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box7 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: rgb(113, 75, 202);
+
+                                .new {
+                                    border: 2px solid orange;
+                                    color: white;
+                                    background-color: orange;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    // border-bottom-left-radius: 3vh;
+                                    border-top-left-radius: 1vh;
+                                    top: 0px;
+                                    left: 0px;
+                                }
+            
+                                .hot {
+                                    border: 2px solid blue;
+                                    color: white;
+                                    background-color: blue;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-bottom-right-radius: 1vh;
+                                    // border-top-right-radius: 3vh;
+                                    top: 0px;
+                                    left: 60px;
+                                }
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 190px;
+                                    height: 140px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+                            }
+
+                        }
+                        .purchase-8 {
+                            border: 2px solid rgb(227, 225, 225);
+                            width: 220px;
+                            height: 280px;
+                            border-radius: 1vh;
+                            position: relative;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
+
+                            .box8 {
+                                // border: 2px solid black;
+                                width: 220px;
+                                height: 100px;
+                                display: flex;
+                                flex-direction: column;
+                                border-bottom-left-radius: 1vh;
+                                border-bottom-right-radius: 1vh;
+                                // align-items: center;
+                                background-color:transparent;
+
+                                .up {
+                                    padding: 10px;
+                                    // border: 2px solid black;
+                                    width: 250px;
+                                    height: 33px;
+                                }
+        
+                                .mid {
+                                    // border: 2px solid black;
+                                    padding: 10px;
+                                    width: 250px;
+                                    height: 33px;
+                                    display: flex;
+                                    flex-direction: row;
+        
+                                    .real {
+                                        // padding: 5px;
+                                        // border: 2px solid black;
+                                        width: 70px;
+                                        height: 33px;
+                                        color: red;
+                                    }
+        
+                                    .disc  {
+                                        // border: 2px solid black;
+                                        // padding: 5px;
+                                        width: 125px;
+                                        height: 33px;
+                                        text-decoration: line-through;
+                                    }
+                                }
+
+                                .bot {
+                                    // border: 2px solid black;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 250px;
+                                    height: 33px;
+        
+                                    .dark {
+                                        // border: 2px solid black;
+                                        color: blue;
+                                        background-color: lightblue;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 5vh;
+                                        width: 80px;
+                                        height: 28px;
+                                    }
+        
+                                    .light {
+                                        // border: 2px solid black;
+                                        width: 125px;
+                                        height: 33px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 5px;
+        
+                                        .color-1 {
+                                            border: 2px solid black;
+                                            background-color: black;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-2 {
+                                            border: 2px solid orange;
+                                            background-color: orange;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-3 {
+                                            border: 2px solid red;
+                                            background-color: red;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                        .color-4 {
+                                            border: 2px solid yellow;
+                                            background-color: yellow;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .shoes {
+                                // border: 2px solid black;
+                                position: relative;
+                                width: 217px;
+                                height: 180px;
+                                border-radius: 1vh;
+                                background-color: cyan;
+
+                                .new {
+                                    border: 2px solid orange;
+                                    color: white;
+                                    background-color: orange;
+                                    width: 60px;
+                                    height: 30px;
+                                    position: absolute;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    // border-bottom-left-radius: 3vh;
+                                    border-top-left-radius: 1vh;
+                                    top: 0px;
+                                    left: 0px;
+                                }
+
+                                img {
+                                    position: absolute;
+                                    // border: 2px solid black;
+                                    left: 0px;
+                                    width: 185px;
+                                    height: 150px;
+                                    transform: rotate(-20deg);
+                                    
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .mainright {
+                    // border: 2px solid black;
+                    width: 326px;
+                    height: 350px;
+                    padding: 10px;
+
+                    .user {
+                        border: 2px solid lightgreen;
+                        background-color: lightgreen;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
+                        font-size: 2rem;
+                    }
+                    .people {
+                        // border: 2px solid black;
+                        width: 326px;
+                        height: 100px;
+
+                        .up {
+                            // border: 2px solid black;
+                            width: 326px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .mid {
+                            // border: 2px solid black;
+                            width: 326px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+
+                            p {
+                                font-size: 40px;
+                            }
+                        }
+                        .bot {
+                            // border: 2px solid black;
+                            display: flex;
+                            flex-direction: row;
+                            width: 326px;
+                            height: 30px;
+
+                            .high {
+                                // border: 2px solid black;
+                                width: 65px;
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                color: lightgreen;
+                            }
+                            .low {
+                                // border: 2px solid black;
+                                display: flex;
+                                align-items: center;
+                                width: 163px;
+                                height: 30px;
+                            }
+                        }
+                    }
+                    .data {
+                        border: 2px solid lightseagreen;
+                        background-color: lightseagreen;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
+                        font-size: 2rem;
+                    }
+                    .engage {
+                        // border: 2px solid black;
+                        width: 326px;
+                        height: 100px;
+
+                        .up {
+                            // border: 2px solid black;
+                            width: 326px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .mid {
+                            // border: 2px solid black;
+                            width: 326px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+
+                            p {
+                                font-size: 40px;
+                            }
+                        }
+                        .bot {
+                            // border: 2px solid black;
+                            display: flex;
+                            flex-direction: row;
+                            width: 326px;
+                            height: 30px;
+
+                            
+                            .high {
+                                // border: 2px solid black;
+                                width: 65px;
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                color: lightgreen;
+                            }
+                            .low {
+                                // border: 2px solid black;
+                                display: flex;
+                                align-items: center;
+                                width: 163px;
+                                height: 30px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+}

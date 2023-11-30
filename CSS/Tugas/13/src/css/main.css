@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+section#one {
+  border: 2px solid black;
+  width: 95%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section#one .left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+@media screen and (min-width: 1024px) {
+  section#one .left {
+    display: flex;
+    width: 60%;
+  }
+}
+section#one .left .satu {
+  border: 2px solid white;
+  flex-grow: 1;
+  height: 90%;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+@media screen and (min-width: 1024px) {
+  section#one .left .satu {
+    display: flex;
+    width: 35%;
+  }
+}
+section#one .left .satu .inner-box {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section#one .left .satu .inner-box:hover {
+  background-color: rgb(0, 102, 255);
+}
+section#one .left .satu .inner-box p {
+  color: white;
+  padding-left: 5px;
+  font-family: "Poppins", sans-serif;
+}
+section#one .left .satu .inner-box button {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+section#one .left .dua {
+  border: 2px solid white;
+  width: 65%;
+  height: 90%;
+  border-radius: 3vh;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px;
+}
+@media screen and (min-width: 1024px) {
+  section#one .left .dua {
+    display: flex;
+  }
+}
+section#one .left .dua .kiri {
+  border: 2px solid white;
+  width: 50%;
+  height: 90%;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+section#one .left .dua .kiri:hover {
+  background-color: rgb(0, 102, 255);
+}
+section#one .left .dua .kiri p {
+  color: white;
+  padding-left: 5px;
+  font-family: "Poppins", sans-serif;
+}
+section#one .left .dua .kiri button {
+  width: 60px;
+  height: 90%;
+  border-radius: 3vh;
+  background-color: rgb(255, 225, 0);
+}
+section#one .left .dua .kanan {
+  border: 2px solid white;
+  width: 50%;
+  height: 90%;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+section#one .left .dua .kanan:hover {
+  background-color: rgb(0, 102, 255);
+}
+section#one .left .dua .kanan p {
+  color: white;
+  padding-left: 5px;
+  font-family: "Poppins", sans-serif;
+}
+section#one .left .dua .kanan button {
+  background-color: rgb(254, 52, 52);
+  color: white;
+  width: 100px;
+  height: 90%;
+  border-radius: 3vh;
+}
+section#one .right {
+  width: 10%;
+  height: 60%;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+@media screen and (min-width: 1024px) {
+  section#one .right {
+    display: flex;
+  }
+}
+section#one .right button {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-color: white;
+}
+section#one .right button:hover {
+  background-color: rgb(0, 102, 255);
+}
+section#one .menu {
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3vh;
+}
+@media screen and (min-width: 1024px) {
+  section#one .menu {
+    display: none;
+  }
+}
+
+section#two {
+  border: 2px solid white;
+  width: 95%;
+  height: 25em;
+  border-radius: 3vh;
+  background-color: #849293;
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 1024px) {
+  section#two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+section#two .left {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section#two .left .atas {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+section#two .left .atas h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+@media screen and (min-width: 1024px) {
+  section#two .left .atas h1 {
+    font-size: 7rem;
+  }
+}
+section#two .left .bawah {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  section#two .left .bawah {
+    display: flex;
+    width: 80%;
+  }
+}
+section#two .left .bawah .kiri {
+  display: flex;
+  width: 100%;
+  height: 75%;
+  align-items: center;
+  padding: 5px;
+}
+@media screen and (min-width: 1024px) {
+  section#two .left .bawah .kiri {
+    display: flex;
+    width: 60%;
+  }
+}
+section#two .left .bawah .kiri button {
+  padding: 5px;
+  width: 600px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  color: white;
+  border-radius: 3vh;
+  border: 2px solid;
+  border-color: white;
+}
+section#two .left .bawah .kiri button i {
+  background-color: rgba(136, 68, 153, 0.1333333333);
+}
+section#two .left .bawah .kanan {
+  width: 40%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+section#two .left .bawah .kanan p {
+  color: white;
+}
+section#two .right {
+  width: 20%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+section#two .right .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: black;
+}
+section#two .right .circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+section#two .right button {
+  width: 150px;
+  height: 40px;
+  border-radius: 3vh;
+  background-color: gray;
+  border: none;
+  color: white;
+}
+
+section#three {
+  width: 95%;
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  section#three {
+    display: flex;
+    flex-direction: row;
+  }
+}
+section#three .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+}
+section#three .left button {
+  padding: 2px 5px;
+  height: 30px;
+  border-radius: 3vh;
+  background-color: black;
+  color: white;
+  border: 2px solid;
+}
+@media screen and (min-width: 1024px) {
+  section#three .left button {
+    font-size: 15px;
+  }
+}
+section#three .right {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+@media screen and (min-width: 1024px) {
+  section#three .right {
+    width: 50%;
+  }
+}
+section#three .right p {
+  color: white;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

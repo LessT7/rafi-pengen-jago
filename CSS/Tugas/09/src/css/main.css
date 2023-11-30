@@ -1,0 +1,1765 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+section#side {
+  background-color: #edeef9;
+  display: flex;
+  flex-direction: row;
+}
+section#side .sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 786px;
+  gap: 15px;
+}
+section#side .sidebar .flag-1 {
+  width: 90px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#side .sidebar .flag-1 h1 {
+  display: flex;
+  color: rgb(255, 170, 0);
+}
+section#side .sidebar .flag-2 {
+  width: 90px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+section#side .sidebar .flag-2 button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(105, 104, 104);
+  border: none;
+  cursor: pointer;
+}
+section#side .sidebar .flag-2 button i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+section#side .sidebar .flag-2 button:hover {
+  color: white;
+}
+section#side .sidebar .flag-2 button:hover i {
+  background-color: rgb(0, 98, 255);
+}
+section#side .sidebar .flag-3 {
+  width: 90px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+section#side .sidebar .flag-3 button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(105, 104, 104);
+  border: none;
+  cursor: pointer;
+}
+section#side .sidebar .flag-3 button i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+section#side .sidebar .flag-3 button:hover {
+  color: white;
+}
+section#side .sidebar .flag-3 button:hover i {
+  background-color: rgb(0, 98, 255);
+}
+
+header#mess .navbar {
+  width: 1446px;
+  background-color: #edeef9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+header#mess .navbar .search {
+  width: 1200px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-left: 2px solid black;
+}
+header#mess .navbar .search button {
+  font-size: 1.5rem;
+  margin-left: 30px;
+  background-color: transparent;
+  border: none;
+  color: rgb(105, 104, 104);
+  cursor: pointer;
+}
+header#mess .navbar .search button:hover {
+  color: white;
+}
+header#mess .navbar .order {
+  width: 85px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+header#mess .navbar .order button {
+  background-color: rgb(0, 98, 255);
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 1vh;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+header#mess .navbar .order button:hover {
+  background-color: white;
+  color: rgb(0, 98, 255);
+}
+header#mess .navbar .profile {
+  width: 150px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+header#mess .navbar .profile button {
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+header#mess .navbar .profile button:hover {
+  color: red;
+}
+header#mess .navbar .profile .foto img {
+  width: 35px;
+  height: 40px;
+}
+header#mess .main {
+  width: 1446px;
+  height: 721px;
+  background-color: #edeef9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header#mess .main .mainbox {
+  width: 1426px;
+  height: 700px;
+  border-radius: 3vh;
+  background-color: white;
+}
+header#mess .main .mainbox .upperbox {
+  width: 1426px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header#mess .main .mainbox .upperbox .leftbox {
+  padding: 20px;
+  position: relative;
+  width: 900px;
+  height: 300px;
+  border-radius: 3vh;
+  background-color: rgb(255, 238, 0);
+}
+header#mess .main .mainbox .upperbox .leftbox .new {
+  border: 2px solid orange;
+  color: white;
+  background-color: orange;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 3vh;
+  bottom: 0px;
+  left: 0px;
+}
+header#mess .main .mainbox .upperbox .leftbox .hot {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 3vh;
+  bottom: 0px;
+  left: 60px;
+}
+header#mess .main .mainbox .upperbox .leftbox img {
+  position: absolute;
+  transform: rotate(-25deg);
+  right: 80px;
+  top: -50px;
+}
+header#mess .main .mainbox .upperbox .leftbox .sepuluh {
+  position: absolute;
+  font-size: 1.5rem;
+  right: 10px;
+  bottom: 10px;
+  transform: rotate(-25deg);
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 {
+  width: 250px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 3vh;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .upperbox .leftbox .box1 .bot .light .color-5 {
+  border: 2px solid green;
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .upperbox .rightbox {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  width: 400px;
+  height: 330px;
+  border-radius: 2vh;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri {
+  width: 30px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .top {
+  width: 30px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .top .purple {
+  border: 2px solid purple;
+  background-color: purple;
+  width: 20px;
+  height: 40px;
+  border-radius: 1vh;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low {
+  width: 30px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-1 {
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-2 {
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-3 {
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-4 {
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-5 {
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-6 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header#mess .main .mainbox .upperbox .rightbox .kiri .low .angka-7 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan {
+  width: 325px;
+  height: 325px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 325px;
+  height: 45px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfc .left {
+  width: 160px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfc .right {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 35px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfc .right form select {
+  width: 125px;
+  height: 30px;
+  border-radius: 1vh;
+  background-color: transparent;
+  border-color: white;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx {
+  width: 325px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-1 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-1 .colorbar-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-1 .number-1 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-2 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-2 .colorbar-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-2 .number-2 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-3 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-3 .colorbar-3 {
+  border: 2px solid blue;
+  background-color: blue;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-3 .number-3 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-4 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-4 .colorbar-4 {
+  border: 2px solid red;
+  background-color: red;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-4 .number-4 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-5 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-5 .colorbar-5 {
+  border: 2px solid purple;
+  background-color: purple;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-5 .number-5 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-6 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-6 .colorbar-6 {
+  border: 2px solid pink;
+  background-color: pink;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-6 .number-6 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-7 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-7 .colorbar-7 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-7 .number-7 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-8 {
+  width: 30px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-8 .colorbar-8 {
+  border: 2px solid white;
+  background-color: white;
+  width: 20px;
+  height: 100px;
+}
+header#mess .main .mainbox .upperbox .rightbox .kanan .sfx .tower-8 .number-8 {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+header#mess .main .mainbox .lowerbox {
+  width: 1426px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft {
+  width: 1100px;
+  height: 350px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket {
+  width: 1100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kiri {
+  padding: 50px;
+  width: 550px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kiri .box {
+  border: 2px solid lightgreen;
+  background-color: lightgreen;
+  border-radius: 1vh;
+  width: 15px;
+  height: 40px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kiri p {
+  font-size: 20px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kanan {
+  width: 550px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kanan form select {
+  width: 100px;
+  height: 25px;
+  border-radius: 1vh;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kanan button {
+  background-color: rgb(0, 98, 255);
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 1vh;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+header#mess .main .mainbox .lowerbox .mainleft .upperbracket .kanan button:hover {
+  background-color: white;
+  color: rgb(0, 98, 255);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 1100px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  gap: 15px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .box1 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .shoes {
+  position: relative;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: lightgreen;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-1 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 185px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .box2 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .shoes {
+  position: relative;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: rgb(173, 180, 230);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 185px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-2 .shoes .hot {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  border-top-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .box3 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .shoes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: rgb(113, 75, 202);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .shoes .new {
+  border: 2px solid orange;
+  color: white;
+  background-color: orange;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1vh;
+  top: 0px;
+  left: 0px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .shoes .hot {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 1vh;
+  top: 0px;
+  left: 60px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-3 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 190px;
+  height: 140px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .box4 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .shoes {
+  position: relative;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: cyan;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .shoes .new {
+  border: 2px solid orange;
+  color: white;
+  background-color: orange;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1vh;
+  top: 0px;
+  left: 0px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-4 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 185px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .box5 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .shoes {
+  position: relative;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: lightgreen;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-5 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 185px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .box6 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .shoes {
+  position: relative;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: rgb(173, 180, 230);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 185px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-6 .shoes .hot {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  border-top-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .box7 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .shoes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: rgb(113, 75, 202);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .shoes .new {
+  border: 2px solid orange;
+  color: white;
+  background-color: orange;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1vh;
+  top: 0px;
+  left: 0px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .shoes .hot {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 1vh;
+  top: 0px;
+  left: 60px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-7 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 190px;
+  height: 140px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 {
+  border: 2px solid rgb(227, 225, 225);
+  width: 220px;
+  height: 280px;
+  border-radius: 1vh;
+  position: relative;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8:hover {
+  border: 2px solid black;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: transparent;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .up {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .mid {
+  padding: 10px;
+  width: 250px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .mid .real {
+  width: 70px;
+  height: 33px;
+  color: red;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .mid .disc {
+  width: 125px;
+  height: 33px;
+  text-decoration: line-through;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+  height: 33px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot .dark {
+  color: blue;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  width: 80px;
+  height: 28px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot .light {
+  width: 125px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot .light .color-1 {
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot .light .color-2 {
+  border: 2px solid orange;
+  background-color: orange;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot .light .color-3 {
+  border: 2px solid red;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .box8 .bot .light .color-4 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .shoes {
+  position: relative;
+  width: 217px;
+  height: 180px;
+  border-radius: 1vh;
+  background-color: cyan;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .shoes .new {
+  border: 2px solid orange;
+  color: white;
+  background-color: orange;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1vh;
+  top: 0px;
+  left: 0px;
+}
+header#mess .main .mainbox .lowerbox .mainleft .lowerbracket .purchase-8 .shoes img {
+  position: absolute;
+  left: 0px;
+  width: 185px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+header#mess .main .mainbox .lowerbox .mainright {
+  width: 326px;
+  height: 350px;
+  padding: 10px;
+}
+header#mess .main .mainbox .lowerbox .mainright .user {
+  border: 2px solid lightgreen;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+header#mess .main .mainbox .lowerbox .mainright .people {
+  width: 326px;
+  height: 100px;
+}
+header#mess .main .mainbox .lowerbox .mainright .people .up {
+  width: 326px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+header#mess .main .mainbox .lowerbox .mainright .people .mid {
+  width: 326px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+header#mess .main .mainbox .lowerbox .mainright .people .mid p {
+  font-size: 40px;
+}
+header#mess .main .mainbox .lowerbox .mainright .people .bot {
+  display: flex;
+  flex-direction: row;
+  width: 326px;
+  height: 30px;
+}
+header#mess .main .mainbox .lowerbox .mainright .people .bot .high {
+  width: 65px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: lightgreen;
+}
+header#mess .main .mainbox .lowerbox .mainright .people .bot .low {
+  display: flex;
+  align-items: center;
+  width: 163px;
+  height: 30px;
+}
+header#mess .main .mainbox .lowerbox .mainright .data {
+  border: 2px solid lightseagreen;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage {
+  width: 326px;
+  height: 100px;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage .up {
+  width: 326px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage .mid {
+  width: 326px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage .mid p {
+  font-size: 40px;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage .bot {
+  display: flex;
+  flex-direction: row;
+  width: 326px;
+  height: 30px;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage .bot .high {
+  width: 65px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: lightgreen;
+}
+header#mess .main .mainbox .lowerbox .mainright .engage .bot .low {
+  display: flex;
+  align-items: center;
+  width: 163px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

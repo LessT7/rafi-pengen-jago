@@ -1,0 +1,12 @@
+{
+  "name": "08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sheet": "sass ./src/sass/main.scss ./src/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
